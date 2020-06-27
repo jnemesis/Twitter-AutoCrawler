@@ -1,3 +1,5 @@
+#This project was built using a Tweepy search function and time based loop to track tweets of wildfires in Arizona.
+
 import tweepy
 import datetime
 import time
@@ -5,7 +7,7 @@ import pandas
 
 #Import json containing developer key, comment out if done manual
 import json
-
+#Enter your json key location below. Example: 'C:/Users/YourUID/token_file_name.json'
 with open('ENTER json LOCATION HERE') as f:
   data = json.load(f)
 
